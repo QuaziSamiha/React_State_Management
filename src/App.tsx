@@ -1,16 +1,15 @@
-import Counter1 from "./components/classComponents/Counter1";
-import Counter2 from "./components/classComponents/Counter2";
-import Calculator1 from "./components/functionalComponents/Calculator1";
-import Calculator2 from "./components/functionalComponents/Calculator2";
+import Parent from "./components/ParentChildProps/Parent";
+import Parent2 from "./components/ParentChildProps2/Parent2";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold text-center">Class Components</h1>
-      <Counter1 />
-      <Counter2 />
-      <h1 className="text-3xl font-bold text-center">Functional Components</h1>
-      <Calculator1 />
-      <Calculator2 />
+      <h1 className="text-3xl font-bold text-center">State Lift Up</h1>
+      <h1 className="text-xl font-bold text-center">Data One Way Binding</h1>
+      <h1 className="text-xl font-bold text-center">
+        Props Drilling (Anti Pattern)
+      </h1>
+      <Parent />
+      <Parent2 />
     </>
   );
 }

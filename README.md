@@ -56,3 +56,9 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 - state within react class component
 - stateless react functional component
 - useState() hook within react functional component
+
+# 23-2 Limitations Of One-Way Data Binding In React.
+
+- state lift up
+- one way data binding --> data can send from parent to child but child cannot send data to parent
+- props drilling --> unnecessary data pass
