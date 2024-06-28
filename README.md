@@ -1,3 +1,5 @@
+**25.06.24**
+
 # React + TypeScript + Vite + Tailwind CSS steps for installation
 
 1. npm create vite@latest react-state-management -- --template react-ts
@@ -51,11 +53,15 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 - **What is react state?**
 - **Why we use useState instead of a variable to store a state?**
 
+**26.06.24**
+
 # 23-1 State In React
 
 - state within react class component
 - stateless react functional component
 - useState() hook within react functional component
+
+**26.06.24 & 27.06.24**
 
 # 23-2 Limitations Of One-Way Data Binding In React.
 
@@ -66,3 +72,15 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 # 23-3 Use Object As State For A Component
 
 - mutable & immutable (when we change a state, we cannot store any reference of previous state, directly set the new state)
+
+**28.06.24**
+
+# 23-4 Use UseReducer To Maintain The State
+
+- useReducer hook is inspired by Redux
+- useState return an array with two elements
+- useReducer also returns an array with two elements (1. state and 2. dispatch)
+- useReducer takes two parameter as arguments, first one is a function (conventionally called reducer) and second one is a value(we can send an object or a variable). By default this reducer function get access of two things, 1. currentState, 2. action
+- we are sending dispatch to reducer function
+
+# 23-5 Dynamic Payload And Proper Usage With TypeScript
