@@ -62,3 +62,7 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 - state lift up
 - one way data binding --> data can send from parent to child but child cannot send data to parent
 - props drilling --> unnecessary data pass
+
+# 23-3 Use Object As State For A Component
+
+- mutable & immutable (when we change a state, we cannot store any reference of previous state, directly set the new state)
