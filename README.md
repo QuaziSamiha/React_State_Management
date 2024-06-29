@@ -84,3 +84,18 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 - we are sending dispatch to reducer function
 
 # 23-5 Dynamic Payload And Proper Usage With TypeScript
+
+# 23-6 Initialize A Context Provider Component
+
+# 23-7 Initialize UseReducer Inside Provider Component
+
+# 23-8 Handle AddTodo
+
+**29.06.24**
+
+# 23-9 Handle Todo List
+
+# 23-10 Refactor Action Types
+
+- react-redux --> not opinionated
+- redux-toolkit --> opinionated, currently mostly used, redux toolkit also give rtk query which helps us for data fetching.
