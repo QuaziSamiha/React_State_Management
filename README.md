@@ -143,3 +143,5 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 - make src --> redux --> features --> counterSlice.tsx
 
 # 24-5 Basic Counter With Redux
+
+# 24-6 Payload And TypeSafe Redux
