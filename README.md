@@ -99,3 +99,47 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 
 - react-redux --> not opinionated
 - redux-toolkit --> opinionated, currently mostly used, redux toolkit also give rtk query which helps us for data fetching.
+
+# 24-1 What Is Redux ?
+
+- redux is a predictable state container for JavaScript applications (vue, react, angular)
+- predictable:
+  1. single source of truth
+  2. Immutable behavior
+  3. usage of pure function
+  4. object as a action
+  5. unidirectional flow
+- centralize (we can get state from anywhere)
+- debuggable (it gives a devtool --> its kind of a time machine , so we can refine previous state)
+- flexible (its a independent ui framework --> vue, react, angular, middleware support --> for helps in data fetching, handle side effects, rtk query helps in data fetching)
+
+**30.06.24**
+
+# 24-2 Inner Workings Of Redux
+
+- action --> action taken by user, each action has a corresponding reducer function.
+- dispatch --> sending the action object to the store. Dispatching an action triggers the corresponding reducer to update the state.
+- payload --> optional data that is attached to an action. it carries any additional information that needs to be send along with the acton to update the state.
+- reducer --> a reducer is a pure function that takes the current state and an acton as inputs and returns a new state. It defines how the application's state changes in response to different actions.
+- store --> the store holds the state of the application. The store is responsible for dispatching actions maintaining the state and notifying subscribers about state changes.
+
+- view --> action --> state --> view
+
+# 24-3 Initial Project Setup
+
+- **Steps:**
+  1. npm create vite
+  2. react , typescript, cd to code folder
+  3. npm install
+  4. redux toolkit (https://redux-toolkit.js.org/)
+  5. npm install @reduxjs/toolkit react-redux (https://redux-toolkit.js.org/tutorials/quick-start)
+
+**01.07.24**
+
+# 24-4 Initialize Store And Slice
+
+- make src --> redux --> store.ts
+- import Provider from react-redux at main.tsx & also import store from store.ts
+- make src --> redux --> features --> counterSlice.tsx
+
+# 24-5 Basic Counter With Redux
