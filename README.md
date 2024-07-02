@@ -144,4 +144,8 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 
 # 24-5 Basic Counter With Redux
 
+**02.07.24**
+
 # 24-6 Payload And TypeSafe Redux
+
+- link (https://redux-toolkit.js.org/tutorials/typescript)

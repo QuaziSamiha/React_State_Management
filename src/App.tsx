@@ -4,9 +4,11 @@ import {
   increment,
   incrementByValue,
 } from "./redux/features/counterSlice";
+import { RootState } from "./redux/store";
 
 function App() {
-  const { count } = useSelector((state) => state.counter);
+  const { count } = useSelector((state: RootState) => state.counter);
+  // const { count } = useSelector((state) => state.counter);
   const dispatch = useDispatch(); // send
   return (
     <div className="container p-4 flex flex-col justify-center items-center h-screen w-full">
