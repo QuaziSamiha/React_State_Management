@@ -15,7 +15,7 @@ function App() {
       <h1 className="text-2xl font-semibold text-violet-600">
         React with Redux
       </h1>
-      <div className="m-8 p-8 rounded-md shadow-lg shadow-purple-500">
+      <div className="m-8 p-8 rounded-md shadow-lg shadow-purple-200">
         <div className="flex items-center justify-evenly gap-4">
           <button
             onClick={() => dispatch(increment())}

@@ -152,6 +152,8 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 
 **15.07.24**
 
+(branch: learn10)
+
 # 24-7 JavaScript Mutation And Function Currying (code not done -- please review)
 
 # 24-8 Devtools, Middlwares And Custome Middlwares
@@ -164,3 +166,9 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 
 - **Command:** npm install redux-logger
 - **Command:** npm install --save-dev @types/redux-logger
+
+# 24-9 RTK Query Overview
+
+- link (https://redux-toolkit.js.org/rtk-query/overview)
+
+# 24-10 Module Recap And Homework.
