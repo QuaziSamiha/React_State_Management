@@ -60,3 +60,8 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 
 - **What is react state?**
 - **Why we use useState instead of a variable to store a state?**
+
+**15 July, 2024**
+# 24-7 JavaScript Mutation And Function Currying
+
+# 24-8 Devtools, Middlwares And Custome Middlwares
