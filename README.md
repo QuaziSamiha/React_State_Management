@@ -149,3 +149,18 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 # 24-6 Payload And TypeSafe Redux
 
 - link (https://redux-toolkit.js.org/tutorials/typescript)
+
+**15.07.24**
+
+# 24-7 JavaScript Mutation And Function Currying (code not done -- please review)
+
+# 24-8 Devtools, Middlwares And Custome Middlwares
+
+- link (https://redux-toolkit.js.org/tutorials/typescript)
+- **Chrome extension** react dev tool
+- link (https://redux-toolkit.js.org/api/configureStore)
+
+- link (https://redux-toolkit.js.org/api/getDefaultMiddleware)
+
+- **Command:** npm install redux-logger
+- **Command:** npm install --save-dev @types/redux-logger
