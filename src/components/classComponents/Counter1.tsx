@@ -4,6 +4,7 @@ class Counter1 extends React.Component {
   constructor() {
     super();
   }
+  // render function will return jsx
   render() {
     console.log(this); // state will be null
     return (
