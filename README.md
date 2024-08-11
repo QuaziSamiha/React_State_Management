@@ -172,3 +172,24 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 - link (https://redux-toolkit.js.org/rtk-query/overview)
 
 # 24-10 Module Recap And Homework.
+
+**25.07.24**
+
+# Text Instructions : Module 25
+
+- **Frontend:** (https://github.com/Apollo-Level2-Web-Dev/L2B3-Todo-starterpack)
+
+- **Backend:** (https://github.com/Apollo-Level2-Web-Dev/L2B3-todo-server)
+
+**25.07.24** & **11 August, 2024**
+# 25-1 Project Setup (React + Tailwind + Shadcn)
+
+- npm create vite
+- npm install
+- npm run dev
+- **Shad cn:** (https://ui.shadcn.com/) 
+- **Shad cn:** (https://ui.shadcn.com/docs/installation) 
+- modify tsconfig.app.json file 
+- npm i -D @types/node
+- modify vite.config.ts file
+- **Run the CLI:** npx shadcn-ui@latest init
