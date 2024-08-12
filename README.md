@@ -182,6 +182,7 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 - **Backend:** (https://github.com/Apollo-Level2-Web-Dev/L2B3-todo-server)
 
 **25.07.24** & **11 August, 2024**
+
 # 25-1 Project Setup (React + Tailwind + Shadcn)
 
 - npm create vite
@@ -193,3 +194,8 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 - npm i -D @types/node
 - modify vite.config.ts file
 - **Run the CLI:** npx shadcn-ui@latest init
+
+**12.08.24**
+
+# 25-2 Redux setup (Store, slice)
+- **Redux Toolkit TypeScript Quick Start:** (https://redux-toolkit.js.org/tutorials/typescript)
