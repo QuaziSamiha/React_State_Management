@@ -188,9 +188,9 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 - npm create vite
 - npm install
 - npm run dev
-- **Shad cn:** (https://ui.shadcn.com/) 
-- **Shad cn:** (https://ui.shadcn.com/docs/installation) 
-- modify tsconfig.app.json file 
+- **Shad cn:** (https://ui.shadcn.com/)
+- **Shad cn:** (https://ui.shadcn.com/docs/installation)
+- modify tsconfig.app.json file
 - npm i -D @types/node
 - modify vite.config.ts file
 - **Run the CLI:** npx shadcn-ui@latest init
@@ -198,4 +198,26 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 **12.08.24**
 
 # 25-2 Redux setup (Store, slice)
+
 - **Redux Toolkit TypeScript Quick Start:** (https://redux-toolkit.js.org/tutorials/typescript)
+
+**13.08.24**
+
+# 25-3 Todo component's basic structure
+
+- **inline fold** --> VS Code extension
+
+# 25-4 Install Shadcn components
+
+- modified tailwind.config.js file
+
+# 25-5 Handle Modal
+
+-
+
+# 25-6 Handle Add Todo
+
+- working on todoSlice.ts
+- add dispatch to  AddTodoModal.tsx file
+
+# 25-7 Handle Delete
