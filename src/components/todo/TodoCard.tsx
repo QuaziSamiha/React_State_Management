@@ -1,12 +1,14 @@
 import { useAppDispatch } from "@/redux/hook";
 import { Button } from "../ui/button";
+import { removeTodo } from "@/redux/features/todoSlice";
 
 type TTodoCardProps = {
+  id: string; // it is required for delete operation
   title: string;
   description: string;
 };
 
-const TodoCard = ({ title, description }: TTodoCardProps) => {
+const TodoCard = ({ title, description , id}: TTodoCardProps) => {
   const dispatch = useAppDispatch();
   return (
     <div className="bg-white rounded-md flex justify-between items-center p-3 border my-2">
@@ -16,7 +18,7 @@ const TodoCard = ({ title, description }: TTodoCardProps) => {
       {/* <p>description</p> */}
       <p>{description}</p>
       <div className="space-x-5">
-        <Button onClick={() => dispatch(())} className="bg-red-500">
+        <Button onClick={() => dispatch(removeTodo(id))} className="bg-red-500">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

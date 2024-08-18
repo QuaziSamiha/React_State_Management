@@ -25,6 +25,7 @@ const AddTodoModal = () => {
     e.preventDefault();
     console.log({ task, description });
 
+    // const randomString = Math.random().toString(36).substring(2, -1);
     const randomString = Math.random().toString(36).substring(2, 7);
 
     const taskDetails = {

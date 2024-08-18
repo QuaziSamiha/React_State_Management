@@ -220,4 +220,9 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 - working on todoSlice.ts
 - add dispatch to  AddTodoModal.tsx file
 
+**13.08.24** & **18.08.24**
+
 # 25-7 Handle Delete
+
+- **Redux Toolkit TypeScript Quick Start:** (https://redux-toolkit.js.org/tutorials/typescript)
+
