@@ -226,3 +226,7 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 
 - **Redux Toolkit TypeScript Quick Start:** (https://redux-toolkit.js.org/tutorials/typescript)
 
+**18.08.24** & **19.08.24**
+
+# 25-8 Toggle Complete state
+

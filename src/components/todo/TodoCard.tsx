@@ -1,22 +1,51 @@
 import { useAppDispatch } from "@/redux/hook";
 import { Button } from "../ui/button";
-import { removeTodo } from "@/redux/features/todoSlice";
+import { removeTodo, toggleComplete } from "@/redux/features/todoSlice";
 
 type TTodoCardProps = {
   id: string; // it is required for delete operation
   title: string;
   description: string;
+  isCompleted?: boolean;
 };
 
-const TodoCard = ({ title, description , id}: TTodoCardProps) => {
+const TodoCard = ({ title, description, id, isCompleted }: TTodoCardProps) => {
   const dispatch = useAppDispatch();
+
+  // const handleComplete = () => {
+  //   console.log("complete clicked");
+  // };
+  const toggleState = () => {
+    // console.log("complete clicked");
+    // dispatch(toggleState)
+    dispatch(toggleComplete(id))
+  };
+
   return (
     <div className="bg-white rounded-md flex justify-between items-center p-3 border my-2">
-      <input type="checkbox" name="" id="" />
+      {/* ======================= CHECK BOX ========================= */}
+      <input
+        // onChange={handleComplete}
+        onChange={toggleState}
+        type="checkbox"
+        name="complete"
+        id="complete"
+      />
       <p className="font-semibold">{title}</p>
       {/* <p>Time</p> */}
       {/* <p>description</p> */}
+      <div>
+        {isCompleted ? (
+          <p className="text-green-500">Done</p>
+        ) : (
+          <p className="text-orange-500">Pending</p>
+        )}
+      </div>
+
+      {/* ======================= DESCRIPTION ===================== */}
       <p>{description}</p>
+
+      {/* ============= BUTTONS ================ */}
       <div className="space-x-5">
         <Button onClick={() => dispatch(removeTodo(id))} className="bg-red-500">
           <svg
