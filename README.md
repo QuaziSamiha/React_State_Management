@@ -218,7 +218,7 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 # 25-6 Handle Add Todo
 
 - working on todoSlice.ts
-- add dispatch to  AddTodoModal.tsx file
+- add dispatch to AddTodoModal.tsx file
 
 **13.08.24** & **18.08.24**
 
@@ -230,3 +230,11 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 
 # 25-8 Toggle Complete state
 
+**19.08.24**
+
+# 25-9 RTK Query initial setup
+
+- **RTK Query Overview:** (https://redux-toolkit.js.org/rtk-query/overview)
+- **Queries:** (https://redux-toolkit.js.org/rtk-query/usage/queries)
+
+# 25-10 use Query in RTK Query
