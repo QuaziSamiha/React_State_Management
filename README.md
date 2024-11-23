@@ -149,3 +149,8 @@ In This Module, You Will Delve Into The Essential Aspects Of State Management In
 # 24-6 Payload And TypeSafe Redux
 
 - link (https://redux-toolkit.js.org/tutorials/typescript)
+
+# 24-7 JavaScript Mutation And Function Currying
+
+- Redux uses **Immer** behind the scene instead of handling array in a immutable way
+- **Immer link :** (https://immerjs.github.io/immer/)
